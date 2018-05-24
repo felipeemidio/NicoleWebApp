@@ -1,0 +1,130 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+table {
+  
+  width: 100%;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th, tr{
+  vertical-align: middle;
+  height: 30px;
+  
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #f5f5f5;}
+
+
+.form {
+  padding: 16px 16px 12px 16px;
+}
+
+.title {
+  padding: 32px 16px 12px 16px;
+  text-align: center;
+
+}
+
+#PageList button{
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin : 16px 8px 0 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10%;
+}
+
+#PageList {
+  margin: 16px 16px 16px 16px;
+}
+
+.customInput {
+  padding:8px;
+  display:block;
+  width:100%
+}
+
+.customInput2 {
+  padding:8px;
+  display:block;
+  width:100%;
+}
+
+textarea {
+  padding:8px;
+  display:block;
+  width:100%;
+  height: 100px;
+  resize: none;
+}
+
+.accordion {
+    background-color:#4CAF50;
+    color: white;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: green;
+}
+
+.active{
+    background-color: #4CAF50;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.queryTable {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+h1, body{
+  font-family: "Roboto";
+}

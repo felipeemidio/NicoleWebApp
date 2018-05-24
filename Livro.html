@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<!-- Faz com que acentos sejam interpretados da forma correta -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="defaultStyle.css">
+</head>
+
+<body>
+	<ul>
+    	<li><a class="active" href="Livro.html">Livro</a></li>
+    	<li><a href="Aluno.html">Aluno</a></li>
+    	<li><a href="Emprestimo.html">Emprestimo</a></li>
+	</ul>
+
+	<div class="form">
+		<form id="formStudent" name="myform" class="w3-container w3-card-4" onsubmit="return createBook()">
+		    <p>      
+		    <label class="w3-text-blue"><b>Identificador</b></label>
+		    <input class="w3-input w3-border" name="name" type="text"></p>
+		    <p>   
+		    <label class="w3-text-blue"><b>Titulo</b></label>
+		    <input class="w3-input w3-border" name="title" type="text"></p>
+		    <p> 
+		    <label class="w3-text-blue"><b>Autor</b></label>
+		    <input class="w3-input w3-border" name="author" type="text"></p>     
+		    <p>      
+		    <label class="w3-text-blue"><b>Editora</b></label>
+		    <input class="w3-input w3-border" name="publisher" type="text"></p>
+		       
+		    <button type="submit" class="w3-btn w3-blue">Register</button></p>
+		</form>
+	</div>
+
+	<script src="main.js">
+	</script>
+
+</body>
+
+</html>
